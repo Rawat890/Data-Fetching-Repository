@@ -1,0 +1,210 @@
+
+Basic Axios Concepts
+Condition: Install Axios in your project using npm. Write the command.
+
+Condition: Import Axios into a JavaScript file and log the Axios object.
+
+Condition: Make a GET request to https://jsonplaceholder.typicode.com/posts and log the response.
+
+Condition: Make a GET request to fetch a single post with ID 1 from https://jsonplaceholder.typicode.com/posts/1.
+
+Condition: Make a POST request to https://jsonplaceholder.typicode.com/posts with a title and body.
+
+Condition: Make a PUT request to update the post with ID 1 at https://jsonplaceholder.typicode.com/posts/1.
+
+Condition: Make a PATCH request to update only the title of the post with ID 1 at https://jsonplaceholder.typicode.com/posts/1.
+
+Condition: Make a DELETE request to delete the post with ID 1 at https://jsonplaceholder.typicode.com/posts/1.
+
+Condition: Set a custom header Authorization: Bearer token in a GET request.
+
+Condition: Make a GET request with query parameters userId=1 to https://jsonplaceholder.typicode.com/posts.
+
+Error Handling
+Condition: Handle errors for a GET request using .catch().
+
+Condition: Handle errors for a GET request using try-catch with async/await.
+
+Condition: Log the error message if a GET request to an invalid URL fails.
+
+Condition: Display a custom error message if a POST request fails.
+
+Condition: Check if the error response has a status code of 404 and log "Resource not found".
+
+Condition: Retry a failed GET request up to 3 times using a loop.
+
+Condition: Use Axios interceptors to log errors for every request.
+
+Condition: Use Axios interceptors to display a custom error message for every failed request.
+
+Condition: Handle network errors (e.g., no internet connection) in a GET request.
+
+Condition: Handle timeout errors by setting a timeout of 5 seconds for a GET request.
+
+Advanced Axios Features
+Condition: Create an Axios instance with a base URL of https://jsonplaceholder.typicode.com.
+
+Condition: Use the Axios instance to make a GET request to /posts.
+
+Condition: Set default headers for the Axios instance (e.g., Content-Type: application/json).
+
+Condition: Use the Axios instance to make a POST request with default headers.
+
+Condition: Cancel a GET request using Axios' cancellation token.
+
+Condition: Cancel a POST request if it takes longer than 5 seconds.
+
+Condition: Use Axios interceptors to add a timestamp to every request.
+
+Condition: Use Axios interceptors to log the response time for every request.
+
+Condition: Use Axios interceptors to modify the response data before it reaches .then().
+
+Condition: Use Axios interceptors to modify the request config before it is sent.
+
+Authentication
+Condition: Make a GET request with a Bearer token in the headers.
+
+Condition: Store the Bearer token in localStorage and use it in every Axios request.
+
+Condition: Refresh the Bearer token if a request fails with a 401 status code.
+
+Condition: Use Axios interceptors to add a Bearer token to every request.
+
+Condition: Log out the user if a request fails with a 403 status code.
+
+Condition: Make a POST request to a login endpoint and store the token in localStorage.
+
+Condition: Make a GET request to a protected endpoint using the stored token.
+
+Condition: Handle token expiration by refreshing the token and retrying the request.
+
+Condition: Use Axios interceptors to handle token expiration automatically.
+
+Condition: Log the user out if the token refresh fails.
+
+File Uploads
+Condition: Upload a file using a POST request with multipart/form-data.
+
+Condition: Upload multiple files using a POST request.
+
+Condition: Track the upload progress of a file and log it to the console.
+
+Condition: Cancel a file upload if it takes longer than 10 seconds.
+
+Condition: Handle errors during a file upload and display a message to the user.
+
+Condition: Upload a file with additional form data (e.g., title and description).
+
+Condition: Use Axios to download a file from a URL.
+
+Condition: Save the downloaded file to the local filesystem using Node.js.
+
+Condition: Upload a file to Cloudinary using Axios.
+
+Condition: Upload a file to AWS S3 using Axios.
+
+Pagination and Filtering
+Condition: Fetch the first 10 posts from https://jsonplaceholder.typicode.com/posts.
+
+Condition: Fetch the next 10 posts using query parameters _start=10&_limit=10.
+
+Condition: Fetch posts filtered by userId=1 from https://jsonplaceholder.typicode.com/posts.
+
+Condition: Fetch posts sorted by ID in descending order.
+
+Condition: Fetch posts that contain the word "qui" in the title.
+
+Condition: Implement infinite scrolling by fetching posts in batches of 10.
+
+Condition: Fetch posts and display them in a paginated table.
+
+Condition: Fetch posts and allow the user to filter by userId using a dropdown.
+
+Condition: Fetch posts and allow the user to search by title using an input field.
+
+Condition: Fetch posts and allow the user to sort by title or ID.
+
+Real-World Scenarios
+Condition: Fetch weather data from https://api.openweathermap.org/data/2.5/weather using an API key.
+
+Condition: Fetch currency exchange rates from https://api.exchangerate-api.com/v4/latest/USD.
+
+Condition: Fetch GitHub user data from https://api.github.com/users/{username}.
+
+Condition: Fetch a list of repositories for a GitHub user.
+
+Condition: Fetch data from a public API and display it in a React component.
+
+Condition: Fetch data from a public API and display it in a table.
+
+Condition: Fetch data from a public API and allow the user to filter the results.
+
+Condition: Fetch data from a public API and allow the user to sort the results.
+
+Condition: Fetch data from a public API and implement pagination.
+
+Condition: Fetch data from a public API and handle loading and error states.
+
+Testing and Debugging
+Condition: Write a unit test for an Axios GET request using Jest.
+
+Condition: Mock an Axios GET request in a Jest test.
+
+Condition: Write a unit test for an Axios POST request using Jest.
+
+Condition: Mock an Axios POST request in a Jest test.
+
+Condition: Write a unit test for an Axios PUT request using Jest.
+
+Condition: Mock an Axios PUT request in a Jest test.
+
+Condition: Write a unit test for an Axios DELETE request using Jest.
+
+Condition: Mock an Axios DELETE request in a Jest test.
+
+Condition: Debug an Axios request using VS Code's debugger.
+
+Condition: Log the request and response config for every Axios request.
+
+Advanced Scenarios
+Condition: Use Axios to make concurrent requests to multiple endpoints.
+
+Condition: Use Promise.all to make concurrent Axios requests.
+
+Condition: Use Axios to make a request with a custom timeout of 10 seconds.
+
+Condition: Use Axios to make a request with a custom base URL.
+
+Condition: Use Axios to make a request with a custom response type (e.g., blob).
+
+Condition: Use Axios to download an image and display it in a React component.
+
+Condition: Use Axios to upload an image and display the uploaded image URL.
+
+Condition: Use Axios to fetch data from a GraphQL API.
+
+Condition: Use Axios to make a request with a custom HTTP method (e.g., PURGE).
+
+Condition: Use Axios to make a request with a custom error handling function.
+
+Edge Cases
+Condition: Handle a 500 server error in an Axios request.
+
+Condition: Handle a 404 not found error in an Axios request.
+
+Condition: Handle a 403 forbidden error in an Axios request.
+
+Condition: Handle a 401 unauthorized error in an Axios request.
+
+Condition: Handle a network error (e.g., no internet connection) in an Axios request.
+
+Condition: Handle a timeout error in an Axios request.
+
+Condition: Handle a CORS error in an Axios request.
+
+Condition: Handle a malformed JSON response in an Axios request.
+
+Condition: Handle a redirect (e.g., 301) in an Axios request.
+
+Condition: Handle a request that returns no data (e.g., 204 No Content).
